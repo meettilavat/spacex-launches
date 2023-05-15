@@ -2,7 +2,7 @@
 
 This is a React application that interacts with the SpaceX API to display a list of rocket launches. Users can filter the launches based on year, launch success, and land success.
 
-![Main Page](https://github.com/meettilavat/spacex-launches/assets/38155303/2d4020cd-a391-44ca-b95f-d8ec3fad9a35)
+![Main Page](https://github.com/meettilavat/spacex-launches/assets/38155303/79490c95-7b26-42c0-82f2-0d54b096630a)
 
 ## Features
 
@@ -20,16 +20,15 @@ Here are some screenshots of the application:
 
 ### Main Page
 
-![Main Page](https://github.com/meettilavat/spacex-launches/assets/38155303/2d4020cd-a391-44ca-b95f-d8ec3fad9a35)
+![Main Page](https://github.com/meettilavat/spacex-launches/assets/38155303/79490c95-7b26-42c0-82f2-0d54b096630a)
 
 ### Filters
 
-![Filters](https://github.com/meettilavat/spacex-launches/assets/38155303/05fcf7c0-ee26-4a4a-9724-f4091513bdc0)
-![Filters in action](https://github.com/meettilavat/spacex-launches/assets/38155303/3656b270-dfea-404d-8eea-5dc37370fa7e)
+![Filters](https://github.com/meettilavat/spacex-launches/assets/38155303/2977ef55-bb1e-4aba-b8b1-680e9eb58e0b)
 
 ### Mobile View
-![Mobile View](https://github.com/meettilavat/spacex-launches/assets/38155303/2c4e5a6c-684d-4eb0-bac6-5810a9491bd4)
-![Mobile View 2](https://github.com/meettilavat/spacex-launches/assets/38155303/419f3e65-d32c-4b64-9376-9bb34b0a6f9a)
+![Mobile view #1](https://github.com/meettilavat/spacex-launches/assets/38155303/d155dee9-4119-4ed3-93ee-4b4fa1b49ba9)
+![Mobile view #2](https://github.com/meettilavat/spacex-launches/assets/38155303/840c2fc4-29dc-46e3-a652-7e633baba38b)
 
 ## Tech Stack
 
