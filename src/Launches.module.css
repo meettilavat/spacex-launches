@@ -76,12 +76,13 @@ body {
 }
 
 .launch img {
+    align-content: center;
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
 
-.launch h2, .launch ul, .launch h3 {
+.launch h2, .launch ul, .launch p {
     text-align: left;
     width: 100%;
 }

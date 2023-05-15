@@ -43,9 +43,9 @@ function Launches() {
                         <ul>
                             <li>Mission IDs: {launch.mission_id.join(", ")}</li>
                         </ul>
-                        <h3>Launch Year: {launch.launch_year}</h3>
-                        <h3>Successful Launch: {launch.launch_success ? 'True' : 'False'}</h3>
-                        <h3>Successful Landing: {launch.rocket && launch.rocket.first_stage.cores[0].land_success ? 'True' : 'False'}</h3>
+                        <p><b>Launch Year:</b> {launch.launch_year}</p>
+                        <p><b>Successful Launch:</b> {launch.launch_success ? 'True' : 'False'}</p>
+                        <p><b>Successful Landing:</b> {launch.rocket && launch.rocket.first_stage.cores[0].land_success ? 'True' : 'False'}</p>
                     </div>
                 ))}
             </div>
