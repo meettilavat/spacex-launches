@@ -27,8 +27,7 @@ Here are some screenshots of the application:
 ![Filters](https://github.com/meettilavat/spacex-launches/assets/38155303/2977ef55-bb1e-4aba-b8b1-680e9eb58e0b)
 
 ### Mobile View
-![Mobile view #1](https://github.com/meettilavat/spacex-launches/assets/38155303/d155dee9-4119-4ed3-93ee-4b4fa1b49ba9)
-![Mobile view #2](https://github.com/meettilavat/spacex-launches/assets/38155303/840c2fc4-29dc-46e3-a652-7e633baba38b)
+| ![Mobile view #1](https://github.com/meettilavat/spacex-launches/assets/38155303/d155dee9-4119-4ed3-93ee-4b4fa1b49ba9) | ![Mobile view #2](https://github.com/meettilavat/spacex-launches/assets/38155303/840c2fc4-29dc-46e3-a652-7e633baba38b) |
 
 ## Tech Stack
 
