@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# SpaceX Launches Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application that interacts with the SpaceX API to display a list of rocket launches. Users can filter the launches based on year, launch success, and land success.
 
-## Available Scripts
+![Main Page](./screenshots/main-page.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **List of Launches:** Displays a list of SpaceX rocket launches.
+2. **Filters:** Users can filter the list of launches by launch year, launch success, and landing success.
+3. **Responsive Design:** The application is responsive and works well on various screen sizes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can view a live demo of the application here: [https://master--steady-gumption-a72913.netlify.app](https://master--steady-gumption-a72913.netlify.app)
 
-### `npm test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Here are some screenshots of the application:
 
-### `npm run build`
+### Main Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Main Page](./screenshots/Screenshot%202023-05-15%20at%2021-55-04%20React%20App.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Filters
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Filters](./screenshots/Screenshot%202023-05-15%20at%2021-55-23%20React%20App.png)
 
-### `npm run eject`
+### Mobile View
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Mobile View](./screenshots/Screenshot%202023-05-15%20at%2022-08-08%20React%20App.png)![Mobile View](./screenshots/Screenshot%202023-05-15%20at%2022-08-17%20React%20App.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project was bootstrapped with Create React App and uses the following technologies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React.js
+- CSS
+- Axios for API requests
+- Deployed on Netlify
 
-## Learn More
+## Local Development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Follow these steps to run this project in your local environment:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone this repository and navigate into it:
 
-### Code Splitting
+    ```bash
+    git clone https://github.com/yourusername/spacex-dashboard.git
+    cd spacex-dashboard
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Install the dependencies:
 
-### Analyzing the Bundle Size
+    ```bash
+    npm install
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Start the development server:
 
-### Making a Progressive Web App
+    ```bash
+    npm start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. Visit [http://localhost:3000](http://localhost:3000) to view the application.
 
-### Advanced Configuration
+## Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Add pagination or infinite scroll for large number of results.
+- Add more detailed information about each launch.
+- Add more filter options.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is open source and available under the [MIT License](LICENSE).
 
-### `npm run build` fails to minify
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you want to contact me, you can reach me at <tilavatmeet2@gmail.com>.
