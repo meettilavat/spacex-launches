@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Filter from './Filter';
+import Footer from './Footer';
 import styles from './Launches.module.css';
 
 function Launches() {
@@ -42,6 +43,7 @@ function Launches() {
                     </div>
                 ))}
             </div>
+            <Footer />
         </div>
     );
 }
