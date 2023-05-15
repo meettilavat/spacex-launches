@@ -20,7 +20,7 @@ Here are some screenshots of the application:
 
 ### Main Page
 
-![Main Page](https://github.com/meettilavat/spacex-launches/blob/master/screenshots/Screenshot%202023-05-15%20at%2021-55-04%20React%20App.png)
+![Main Page](https://github.com/meettilavat/spacex-launches/blob/master/screenshots/Screenshot%202023-05-15%20at%2021-55-04%20React%20App.png?raw=true)
 
 ### Filters
 
