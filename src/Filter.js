@@ -11,7 +11,7 @@ const Filter = ({ onFilterChange, years, filters }) => {
             [name]: prevFilters[name] === value ? null : value
         }));
 
-        navigate('/launches', { replace: true, state: { [name]: filters[name] === value ? null : value } });
+        navigate('/', { replace: true, state: { [name]: filters[name] === value ? null : value } });
     };
 
 
