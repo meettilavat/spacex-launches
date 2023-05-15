@@ -2,7 +2,7 @@
 
 This is a React application that interacts with the SpaceX API to display a list of rocket launches. Users can filter the launches based on year, launch success, and land success.
 
-![Main Page](screenshots/Screenshot 2023-05-15 at 22-08-08 React App.png)
+![Main Page]("screenshots/Screenshot 2023-05-15 at 22-08-08 React App.png")
 
 ## Features
 
