@@ -6,8 +6,16 @@ import styles from './Launches.module.css';
 
 function Launches() {
     const [launches, setLaunches] = useState([]);
-    const [filters, setFilters] = useState({});
     const [years, setYears] = useState([]);
+    const [filters, setFilters] = useState({ launch_year: [] });
+
+    useEffect(() => {
+        axios.get('https://api.spaceXdata.com/v3/launches?limit=100')
+            .then(res => {
+                const launchYears = [...new Set(res.data.map(launch => launch.launch_year))];
+                setYears(launchYears);
+            });
+    }, []);
 
     useEffect(() => {
         const url = new URL('https://api.spaceXdata.com/v3/launches?limit=100');
@@ -20,11 +28,9 @@ function Launches() {
         axios.get(url.toString())
             .then(res => {
                 setLaunches(res.data);
-                const launchYears = [...new Set(res.data.map(launch => launch.launch_year))];
-                setYears(launchYears);
             });
-
     }, [filters]);
+
 
     return (
         <div className={styles.container}>

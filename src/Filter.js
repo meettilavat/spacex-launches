@@ -6,15 +6,20 @@ const Filter = ({ onFilterChange, years, filters }) => {
     const navigate = useNavigate();
 
     const handleChange = (name, value) => {
-        onFilterChange(prevFilters => ({
-            ...prevFilters,
-            [name]: prevFilters[name] === value ? null : value
-        }));
+        onFilterChange(prevFilters => {
+            if (name === "launch_year") {
+                if (value === "all") {
+                    return { ...prevFilters, [name]: [] };
+                } else {
+                    return { ...prevFilters, [name]: [value] };
+                }
+            }
+
+            return { ...prevFilters, [name]: prevFilters[name] === value ? null : value };
+        });
 
         navigate('/', { replace: true, state: { [name]: filters[name] === value ? null : value } });
     };
-
-
 
     return (
         <div className={styles.filter}>
@@ -24,7 +29,7 @@ const Filter = ({ onFilterChange, years, filters }) => {
                 <div className={styles.yearContainer}>
                     <button className={filters.launch_year === null ? styles.selected : ''} onClick={() => handleChange("launch_year", "all")}>All</button>
                     {years.map(year => (
-                        <button key={year} className={filters.launch_year === year.toString() ? styles.selected : ''} onClick={() => handleChange("launch_year", year.toString())}>{year}</button>
+                        <button key={year} className={filters.launch_year.includes(year.toString()) ? styles.selected : ''} onClick={() => handleChange("launch_year", year.toString())}>{year}</button>
                     ))}
                 </div>
             </div>

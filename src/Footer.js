@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
-import githubIcon from './38155303.png'; // Update this to the correct path of your Github icon
+import githubIcon from './38155303.png';
 
 const Footer = () => (
     <footer className={styles.footer}>
