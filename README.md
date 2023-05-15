@@ -29,7 +29,7 @@ Here are some screenshots of the application:
 
 ### Mobile View
 ![Mobile View](https://github.com/meettilavat/spacex-launches/assets/38155303/2c4e5a6c-684d-4eb0-bac6-5810a9491bd4)
-![Mobile View](https://github.com/meettilavat/spacex-launches/assets/38155303/419f3e65-d32c-4b64-9376-9bb34b0a6f9a)
+![Mobile View 2](https://github.com/meettilavat/spacex-launches/assets/38155303/419f3e65-d32c-4b64-9376-9bb34b0a6f9a)
 
 ## Tech Stack
 
