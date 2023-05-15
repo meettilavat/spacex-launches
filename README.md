@@ -2,7 +2,7 @@
 
 This is a React application that interacts with the SpaceX API to display a list of rocket launches. Users can filter the launches based on year, launch success, and land success.
 
-![Main Page](./screenshots/main-page.png)
+![Main Page](https://github.com/meettilavat/spacex-launches/blob/master/screenshots/Screenshot%202023-05-15%20at%2021-55-04%20React%20App.png)
 
 ## Features
 
@@ -20,15 +20,15 @@ Here are some screenshots of the application:
 
 ### Main Page
 
-![Main Page](./screenshots/Screenshot%202023-05-15%20at%2021-55-04%20React%20App.png)
+![Main Page](https://github.com/meettilavat/spacex-launches/blob/master/screenshots/Screenshot%202023-05-15%20at%2021-55-04%20React%20App.png)
 
 ### Filters
 
-![Filters](./screenshots/Screenshot%202023-05-15%20at%2021-55-23%20React%20App.png)
+![Filters](https://github.com/meettilavat/spacex-launches/blob/master/screenshots/Screenshot%202023-05-15%20at%2021-55-23%20React%20App.png)
 
 ### Mobile View
 
-![Mobile View](./screenshots/Screenshot%202023-05-15%20at%2022-08-08%20React%20App.png)![Mobile View](./screenshots/Screenshot%202023-05-15%20at%2022-08-17%20React%20App.png)
+![Mobile View](https://github.com/meettilavat/spacex-launches/blob/master/screenshots/Screenshot%202023-05-15%20at%2022-08-08%20React%20App.png)![Mobile View](https://github.com/meettilavat/spacex-launches/blob/master/screenshots/Screenshot%202023-05-15%20at%2022-08-17%20React%20App.png)
 
 ## Tech Stack
 
