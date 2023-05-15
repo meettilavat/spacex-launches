@@ -11,7 +11,6 @@ const Filter = ({ onFilterChange, years, filters }) => {
             [name]: prevFilters[name] === value ? null : value
         }));
 
-        // Update URL without refreshing the page
         navigate('/launches', { replace: true, state: { [name]: filters[name] === value ? null : value } });
     };
 
